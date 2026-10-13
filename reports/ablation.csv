@@ -1,0 +1,8 @@
+variant,MAE,RMSE,MAPE,R2,note
+full hybrid,33.156,47.296,1.423,0.999,shipped model
+  - no GBM residual stage,65.595,91.935,2.993,0.996,loses distance/weight curvature
+  - no time trend,79.855,101.624,3.403,0.995,cannot extrapolate forward
+  - no geography,43.4,58.189,1.995,0.998,drops the regional premium
+  - no daily market aggregates,40.028,61.179,1.647,0.998,row-level market signals only
+  - no corrupt-label removal,74.771,111.415,3.294,0.993,1.4% bad labels left in
+plain LightGBM (no linear base),86.746,124.353,3.887,0.992,"trees alone, raw labels"

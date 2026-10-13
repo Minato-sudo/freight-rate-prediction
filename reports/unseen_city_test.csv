@@ -1,0 +1,11 @@
+repeat,variant,held_out_cities,n_holdout,MAE,RMSE,MAPE,R2,mean_bias_%
+1,shipped model (coordinates),"Tulsa, Washington, San Antonio, Memphis, Toledo, Hartford, Bakersfield, New York",12403,27.668,40.577,1.145,0.999,-0.03
+1,no geography,"Tulsa, Washington, San Antonio, Memphis, Toledo, Hartford, Bakersfield, New York",12403,29.251,42.428,1.318,0.999,0.062
+2,shipped model (coordinates),"Houston, New York, Jacksonville, Green Bay, Baton Rouge, Reno, Las Vegas, Charleston",10869,28.323,41.502,1.192,0.999,0.124
+2,no geography,"Houston, New York, Jacksonville, Green Bay, Baton Rouge, Reno, Las Vegas, Charleston",10869,30.739,45.97,1.345,0.999,0.066
+3,shipped model (coordinates),"Tulsa, Atlanta, Cincinnati, Salt Lake City, Little Rock, Harrisburg, San Francisco, Bakersfield",10907,27.881,41.311,1.15,0.999,-0.037
+3,no geography,"Tulsa, Atlanta, Cincinnati, Salt Lake City, Little Rock, Harrisburg, San Francisco, Bakersfield",10907,28.683,43.04,1.228,0.999,-0.168
+4,shipped model (coordinates),"Chattanooga, Harrisburg, Phoenix, Tucson, Salt Lake City, Savannah, Green Bay, Mobile",11204,29.609,43.243,1.174,0.999,0.163
+4,no geography,"Chattanooga, Harrisburg, Phoenix, Tucson, Salt Lake City, Savannah, Green Bay, Mobile",11204,31.143,46.016,1.25,0.999,0.078
+5,shipped model (coordinates),"Fresno, St. Louis, Fort Wayne, New Orleans, Green Bay, Harrisburg, Syracuse, Salt Lake City",9815,29.088,42.762,1.207,0.999,0.031
+5,no geography,"Fresno, St. Louis, Fort Wayne, New Orleans, Green Bay, Harrisburg, Syracuse, Salt Lake City",9815,32.053,47.31,1.411,0.999,0.635
